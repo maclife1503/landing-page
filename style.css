@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 40px;
+  max-width: 400px;
+  margin: auto;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+h1 {
+  margin: 10px 0;
+  color: #333;
+}
+p {
+  color: #555;
+}
+.buttons a {
+  display: block;
+  background-color: #0084ff;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px auto;
+  width: 80%;
+  transition: 0.2s;
+}
+.buttons a:hover {
+  background-color: #005ecb;
+}
+body {
+  font-family: sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;         /* Phóng to vừa khít màn hình */
+  background-repeat: no-repeat;   /* Không lặp lại */
+  background-position: center;    /* Căn giữa ảnh */
+  background-attachment: fixed;   /* Giữ cố định khi cuộn */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
